@@ -19,9 +19,9 @@ var bio = {
   "skills" : [
     "programming, diligence, film, photography, babysitting, awesomeness, communication, responsibility"
 ],
-  "bioPic" : "images\fake.jpg"
+  "picture" : "images\fake.jpg"
 }
-var formattedbioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+var formattedbioPic = HTMLbioPic.replace("%data%", bio.picture);
 $("#header").append(bio.bioPic);
 
 
@@ -47,13 +47,13 @@ var education = {
   "schools": [
     {
       "name": "Udacity",
-      "city": "San Fransisco",
+      "location": "San Fransisco",
       "degree": "Intro to Programming Nanodegree",
       "major": ["CompSci"]
     },
     {
       "name": "Richland College",
-      "city": "Richardson",
+      "location": "Richardson",
       "degree": "Associates",
       "major": ["Film", "Photography"]
     }
